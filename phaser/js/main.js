@@ -13,4 +13,7 @@ function preload() {
 function create() {
   ball = game.add.sprite(50, 50, 'ball');
 }
-function update() {}
+function update() {
+  ball.x += 1;
+  ball.y += 1;
+}
